@@ -8,7 +8,7 @@ Implementation of One-sided selection technique for undersampling.
 
 ## Condensed Nearest Neighbours
 
-<img src="https://raw.githubusercontent.com/sajith-rahim/onesided-selection-tomek-c-nn/main/doc/CondensedNN.JPG?sanitize=true&raw=true" width="760px" height="380px" alt=" CondensedNN"/>
+<img src="https://raw.githubusercontent.com/sajith-rahim/onesided-selection-tomek-c-nn/main/doc/CondensedNN.JPG?sanitize=true&raw=true" width="840px" height="480px" alt=" CondensedNN"/>
 
 
 ## Tomek Link Example
