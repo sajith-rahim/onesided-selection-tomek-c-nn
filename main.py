@@ -1,9 +1,13 @@
+from CondensedNN.IterativeCNN import IterativeCondensedNN
 from tomek import remove, detect, get_non_links
 from utils import make_cluster_data
 
 import matplotlib.pyplot as plt
 
-
+def run2():
+    X, y = make_cluster_data(centerbox=(-4.0, 4.0))
+    cnn = IterativeCondensedNN()
+    cnn.fit(X, y)
 def run():
     X, y = make_cluster_data(centerbox=(-4.0, 4.0))
 
@@ -28,4 +32,4 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    run2()
