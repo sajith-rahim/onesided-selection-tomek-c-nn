@@ -16,6 +16,7 @@ class KNN:
         for idx, point in enumerate(self.X_train):
             neighbors[point.tostring()] = cosine_distance(point, query_point)
             self.y_index[point.tostring()] = idx
+            # Note: use list and append tuples to avoid hashing issue - .tostring
 
         # find k nearest neighbours
         for i in range(self.k):
